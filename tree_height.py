@@ -46,7 +46,7 @@ def main():
     nodes = 0
 
     inputChoice = input()
-    if  inputChoice == "i":
+    if  inputChoice.lower() == "i":
         nodeCount = int(input("input:"))
         nodes = list(map(int, input().split()))
 
