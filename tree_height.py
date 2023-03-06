@@ -48,7 +48,8 @@ def main():
     inputChoice = input()
     if  inputChoice.lower() == "i":
         nodeCount = int(input("input:"))
-        nodes = list(map(int, input().split()))
+        str = input()
+        nodes = list(map(int, str.split()))
 
     elif inputChoice[0] == "F":
         file = open(inputChoice.split(" ", 1)[1])
