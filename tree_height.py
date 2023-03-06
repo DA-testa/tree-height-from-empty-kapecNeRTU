@@ -4,8 +4,6 @@ import sys
 import threading
 import numpy
 import fileinput
-import time
-import psutil
 
 class TreeDepth(object):
     def __init__(self, parents):
