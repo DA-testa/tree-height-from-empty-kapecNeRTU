@@ -52,7 +52,7 @@ def main():
         nodes = list(map(int, str.split()))
 
     elif inputChoice[0] == "F":
-        file = open(input())#open(inputChoice.split("", 1)[1])
+        file = open("test/" + input())#open(inputChoice.split("", 1)[1])
         data = file.readlines()
         nodeCount = int(data[0])
         nodes = list(map(int, data[1].split()))
